@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "target": "ESNext",               // Use the latest JavaScript features
+      "module": "CommonJS",            // Node.js module system
+      "rootDir": "./src",              // Specify the root directory for TypeScript files
+      "outDir": "./dist",              // Output directory for compiled JavaScript files
+      "strict": true,                  // Enable strict type-checking options
+      "esModuleInterop": true,         // Allow default imports for CommonJS modules
+      "skipLibCheck": true,            // Skip type checking for declaration files
+      "resolveJsonModule": true        // Enable importing JSON files as modules
+    },
+    "include": ["src/**/*"],           // Include all files in the "src" directory
+    "exclude": ["node_modules", "dist"] // Exclude "node_modules" and "dist" directories
+  }
+  
